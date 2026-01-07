@@ -1,5 +1,5 @@
 # 2025-2026 Programlama Laboratuvarı Algoritmaları
-Bu içerik  ***KOÜ Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı -1 * dersine giren **Yavuz Selim FATİHOĞLU** hocamızın notları aracılığıyla 1.sınıf öğrencilerine algoritma pratiği yapabilmeleri amacıyla toplu hale getirilmiştir.
+Bu içerik  ***Kocaeli Üniversitesi / Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı-1 (Yavuz Selim FATİHOĞLU)* dersini alan öğrenciler için algoritma pratiği yapabilmeleri amacıyla oluşturulmuştur.
 ## Algoritma Uygulaması 1 (Hafta 3)
 
 >[!TIP]
@@ -44,7 +44,7 @@ Algoritma Uygulaması 2 (Hafta 4)
 >
 >*Klavyeden girilen alt ve üst sınır arasında rastgele oluşturulan 3 sayıdan en büyüğünü bulan ve ekrana yazdıran bir Flowgorithm akış diyagramı oluşturunuz*
 >
->**Rastgele sayı üretmek için: random(N) kullanabilirsiniz**
+>* **Rastgele sayı üretmek için: random(N) kullanabilirsiniz**
 >***
 >### C Grubu:
 >
@@ -56,7 +56,7 @@ Algoritma Uygulaması 2 (Hafta 4)
 >
 >*2- Oluşturulan random sayılardan 5'e bölünebilir sayıları ekrana yazdırınız.*
 
-Algoritma Uygulaması 3 (Hafta 5) (Bu haftada temel egzersiz dosyası var hafta 5 dosyasına eklersin)
+Algoritma Uygulaması 3 (Hafta 5)
 ---
 >[!TIP]
 >### A Grubu:
@@ -75,7 +75,7 @@ Algoritma Uygulaması 3 (Hafta 5) (Bu haftada temel egzersiz dosyası var hafta 
 >
 >*klavyeden girilen a ve b sayıları arasındaki çift sayıların toplamını bulan algoritmanın akış diyagramını hazırlayınız.*
 >
->***[+] a >= b ise hata verip yeni değerlerin girilmesi istenilmelidir.***
+>* ***a >= b ise hata verip yeni değerlerin girilmesi istenilmelidir.***
 >***
 >### C Grubu:
 >
@@ -96,16 +96,17 @@ Algoritma Uygulaması 4 (Ödevler) (Hafta 7)
 >*	*371 sayısı Armstrong sayıdır. ( 3^3 + 7^3 + 1^3 = 27 + 343 + 1 = 371 )*
 >
 >*	*1634 sayısı Armstrong sayıdır. ( 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634 )*
+>
+>**İpucu: Flowgorithmde üs almak klasik şekilde kullanılır. 2^3 şeklinde, 2nin 3. kuvvetini alır.**
 
 >[!TIP]
->**İpucu: Flowgorithmde üs almak klasik şekilde kullanılır. 2^3 şeklinde, 2nin 3. kuvvetini alır.**
->***
 >### Ödev 2:
 >
 >Klavyeden girilen sayının asal olup olmadığını bulan algoritmayı hazırlayınız.
 
 >[!NOTE]
 >*	**Asal Sayı:** *Yalnız ve yalnız iki böleni olan doğal sayılardır. Kendisinden ve 1 sayısından başka böleni olmayan sayılara denilmektedir.*
+
 Algoritma Uygulaması 5 (Hafta 8)
 ---
 >[!TIP]
@@ -160,7 +161,7 @@ Algoritma Uygulaması 5 (Hafta 8)
 >
 >*	*Çıktı: 4, 9, 15, 16, 1*
 
-Algoritma Uygulaması 5 (Hafta 9):
+Algoritma Uygulaması 6 (Hafta 9):
 ---
 >[!TIP]
 >### A Grubu:
@@ -202,7 +203,7 @@ Algoritma Uygulaması 5 (Hafta 9):
 >*	*Girdi -> Kocaeli*
 >*	*Çıktı -> Kelimedeki sesli harf sayısı: 4*
 
-Algoritma Uygulaması 6 (Hafta 11)
+Algoritma Uygulaması 7 (Hafta 11)
 ---
 >[!TIP]
 >### A Grubu:
@@ -268,7 +269,7 @@ Algoritma Uygulaması 6 (Hafta 11)
 >*	*Dizinin en büyük elemanı ve kaçıncı sırada girildiği,*
 >*	*Dizinin en küçük elemanı ve kaçıncı sırada girildiği.*
 
-Algoritma Uygulaması 7 (Hafta 11)
+Algoritma Uygulaması 8 (Hafta 11)
 ---
 >[!TIP]
 >### A Grubu:
@@ -328,7 +329,7 @@ Algoritma Uygulaması 7 (Hafta 11)
 >
 >*	*Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 
-Algoritma Uygulaması 8 (Hafta 13)
+Algoritma Uygulaması 9 (Hafta 13)
 ---
 >[!TIP]
 >### A Grubu:
@@ -417,7 +418,7 @@ Algoritma Uygulaması 8 (Hafta 13)
 >
 >* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
 
-Algoritma Uygulaması 9 (Hafta 14)
+Algoritma Uygulaması 10 (Hafta 14)
 ---
 >[!TIP]
 >### A Grubu:
@@ -495,10 +496,6 @@ Algoritma Uygulaması 9 (Hafta 14)
 >|En uzun tekrar:| 3|
 >|Sayı:| 3|
 >|Başlangıç indeksi:| 0|
-
-
-
-
 
 
 
