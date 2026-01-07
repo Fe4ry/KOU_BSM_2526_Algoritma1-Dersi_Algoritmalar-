@@ -1,4 +1,4 @@
-# 2025-2026 Programlama Laboratuvarı Algoritmaları
+# 2025-2026 Programlama Laboratuvarı-1 Algoritmaları
 Bu depo  ***Kocaeli Üniversitesi / Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı-1 (Yavuz Selim FATİHOĞLU)* dersini alan öğrenciler için algoritma pratiği yapabilmeleri amacıyla oluşturulmuştur.
 ## Algoritma Uygulaması 1 (Hafta 3)
 
