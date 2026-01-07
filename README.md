@@ -1,9 +1,9 @@
-### 2025-2026 Programlama Laboratuvarı Algoritmaları
+# 2025-2026 Programlama Laboratuvarı Algoritmaları
+Bu içerik  ***KOÜ Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı -1 * dersine giren **Yavuz Selim FATİHOĞLU** hocamızın notları aracılığıyla 1.sınıf öğrencilerine algoritma pratiği yapabilmeleri amacıyla toplu hale getirilmiştir.
+## Algoritma Uygulaması 1 (Hafta 3)
 
-Algoritma Uygulaması 1 (Hafta 3)
----
 >[!TIP]
->**A Grubu:**
+>### A Grubu:
 >
 >*Kullanıcıdan alınan bir sayının pozitif, negatif veya sıfır olup olmadığını  kontrol eden bir algoritma tasarlayınız.*
 >
@@ -11,17 +11,15 @@ Algoritma Uygulaması 1 (Hafta 3)
 >
 >*Bu algoritmanın akış diyagramını Flowgorithm ile oluşturunuz.*
 >*** 
->**B Grubu:**
+>### B Grubu:
 >
->*Bir öğrencinin vize ve final notlarını kullanıcıdan alan,*
->
->bu notlara göre öğrencinin not ortalamasını hesaplayan ve ortalama sonucuna göre "Geçti" veya "Kaldı" mesajını ekrana yazdıran, bir akış diyagramı çiziniz.*
+>*Bir öğrencinin vize ve final notlarını kullanıcıdan alan, bu notlara göre öğrencinin not ortalamasını hesaplayan ve ortalama sonucuna göre "Geçti" veya "Kaldı" mesajını ekrana yazdıran, bir akış diyagramı çiziniz.*
 >
 >*	***Vize notunun %40'ı ve final notunun %60'ı alınarak ortalama hesaplanacaktır.***
 >
 >*	***Ortalama 50 ve üzerindeyse öğrenci "Geçti", 50'nin altındaysa "Kaldı" olarak değerlendirilecektir.***
 >***
->**C Grubu:**
+>### C Grubu:
 >
 >*Kullanıcıdan bir tam sayı alarak bu sayının çift mi yoksa tek mi olduğunu kontrol eden bir algoritma yazınız.*
 >
@@ -34,7 +32,7 @@ Algoritma Uygulaması 1 (Hafta 3)
 Algoritma Uygulaması 2 (Hafta 4)
 ---
 >[!TIP]
->**A Grubu:**
+>### A Grubu:
 >
 >*Flowgorithm kullanarak, 0 ile 100 arasında rastgele üretilen 50 sayıdan çift sayıların toplamını ve tek sayıların toplamını bulan bir akış diyagramı oluşturunuz.*
 >
@@ -42,13 +40,13 @@ Algoritma Uygulaması 2 (Hafta 4)
 >
 >*2- Oluşturulan random sayılardan tek ve çift sayıların toplamlarını ekrana yazdırınız.*
 >***
->**B Grubu:**
+>### B Grubu:
 >
 >*Klavyeden girilen alt ve üst sınır arasında rastgele oluşturulan 3 sayıdan en büyüğünü bulan ve ekrana yazdıran bir Flowgorithm akış diyagramı oluşturunuz*
 >
 >**Rastgele sayı üretmek için: random(N) kullanabilirsiniz**
 >***
->**C Grubu:**
+>### C Grubu:
 >
 >*Flowgorithm kullanarak,*
 >
@@ -61,7 +59,7 @@ Algoritma Uygulaması 2 (Hafta 4)
 Algoritma Uygulaması 3 (Hafta 5) (Bu haftada temel egzersiz dosyası var hafta 5 dosyasına eklersin)
 ---
 >[!TIP]
->**A Grubu:**
+>### A Grubu:
 >
 >*Flowgorithm kullanarak, girilen 4 basamaklı pozitif bir sayının basamaklarının karelerinin toplamını bulan algoritmanın akış diyagramını hazırlayınız.*
 >
@@ -71,7 +69,7 @@ Algoritma Uygulaması 3 (Hafta 5) (Bu haftada temel egzersiz dosyası var hafta 
 >
 >***Örn:*** *Yüzler basamağını bulmak için: (1234 % 1000) / 100 = 2*
 >***
->**B Grubu:**
+>### B Grubu:
 >
 >*Flowgorithm kullanarak,*
 >
@@ -79,7 +77,7 @@ Algoritma Uygulaması 3 (Hafta 5) (Bu haftada temel egzersiz dosyası var hafta 
 >
 >***[+] a >= b ise hata verip yeni değerlerin girilmesi istenilmelidir.***
 >***
->**C Grubu:**
+>### C Grubu:
 >
 >Flowgorithm kullanarak,
 >kullanıcının girdiği 5 adet sayıdan kaç tanesinin çift olduğunu ve bu sayıların toplamını bulan algoritmanın akış diyagramını hazırlayınız.
@@ -87,7 +85,7 @@ Algoritma Uygulaması 3 (Hafta 5) (Bu haftada temel egzersiz dosyası var hafta 
 Algoritma Uygulaması 4 (Ödevler) (Hafta 7)
  ---
 >[!TIP]
->**Ödev 1:**
+>### Ödev 1:
 >
 >*Kullanıcı tarafından girilen herhangi bir sayının, Armstrong sayı olup olmadığını bulan algoritmayı Flowgorithm ile tasarlayınız (String yaklaşımı kullanmayınız).*
 
@@ -102,7 +100,7 @@ Algoritma Uygulaması 4 (Ödevler) (Hafta 7)
 >[!TIP]
 >**İpucu: Flowgorithmde üs almak klasik şekilde kullanılır. 2^3 şeklinde, 2nin 3. kuvvetini alır.**
 >***
->**Ödev 2:**
+>### Ödev 2:
 >
 >Klavyeden girilen sayının asal olup olmadığını bulan algoritmayı hazırlayınız.
 
@@ -112,7 +110,7 @@ Algoritma Uygulaması 5 (Hafta 8)
 ---
 >[!TIP]
 >
->**A Grubu:**
+>### A Grubu:
 >
 >*Kullanıcıdan 4 basamaklı bir tamsayı alan, bu sayının her basamağını bir diziye yerleştiren ve sayıyı tersten yazarak ekrana yazdıran algoritmayı Flowgorithm ile tasarlayınız.*
 >
@@ -128,7 +126,7 @@ Algoritma Uygulaması 5 (Hafta 8)
 >
 >*	*Çıktı: 4321*
 >
->**B Grubu:**
+>### B Grubu:
 >
 >*Kullanıcıdan 5 elemanlı bir tamsayı dizisi girmesini isteyen ve dizideki tüm sayıların toplamını ekrana yazdıran bir Flowgorithm algoritması tasarlayınız.*
 >
@@ -144,7 +142,7 @@ Algoritma Uygulaması 5 (Hafta 8)
 >
 >*	*Çıktı: 15*
 >
->**C Grubu:**
+>### C Grubu:
 >
 >*Kullanıcıdan 5 elemanlı bir tamsayı dizisi girmesini isteyen ve dizideki her sayının karesini hesaplayıp ekrana yazdıran bir Flowgorithm algoritması oluşturunuz.*
 >
@@ -165,7 +163,7 @@ Algoritma Uygulaması 5 (Hafta 8)
 Algoritma Uygulaması 5 (Hafta 9):
 ---
 >[!TIP]
->**A Grubu:**
+>### A Grubu:
 >
 >Kullanıcıdan bir kelime alınız. Girilen kelimenin karakterlerini tersten ekrana yazdıran bir algoritmayı Flowgorithm'de oluşturunuz.
 >
@@ -177,7 +175,7 @@ Algoritma Uygulaması 5 (Hafta 9):
 >*	*Girdi → Kocaeli*
 >*	*Çıktı → ileacoK*
 >
->**B Grubu:**
+>### B Grubu:
 >
 >*Kullanıcıdan bir kelime alınız. Kelimenin baştan ve sondan karakterlerini karşılaştırarak kelimenin palindrom olup olmadığını kontrol eden bir algoritmayı Flowgorithm’de oluşturunuz.*
 >
@@ -193,7 +191,8 @@ Algoritma Uygulaması 5 (Hafta 9):
 >
 >*	*Girdi -> kazak/kazak -> Çıktı -> Kelime palindromdur.*
 >*	*Girdi -> masal/lasam -> Çıktı -> Kelime palindrom değildir.*
->**C Grubu:**
+>*	
+>### C Grubu:
 >
 >Kullanıcıdan bir kelime alınız. Kelimenin her karakterini kontrol ederek sesli harflerin **(a, e, ı, i, o, ö, u, ü)** sayısını bulup ekrana yazdıran bir algoritmayı Flowgorithm’de oluşturunuz.
 >
@@ -206,11 +205,12 @@ Algoritma Uygulaması 5 (Hafta 9):
 Algoritma Uygulaması 6 (Hafta 11)
 ---
 >[!TIP]
->**A Grubu:**
+>### A Grubu:
 >
 >*20 elemanlı bir tamsayı dizisi oluşturup bu dizinin her elemanına 1 ile 100 arasında rastgele üretilmiş sayılar atanmasını sağlayan bir C# programı yazınız.*
 >
 >*Program, tüm elemanlar oluşturulduktan sonra dizinin içindeki sayıların tamamını ekrana listelemeli ve dizide kaç adet çift, kaç adet tek sayı bulunduğunu hesaplayıp sonuçları kullanıcıya göstermelidir.*
+>
 >***Çalışma Mantığı:***
 >
 >*- 20 elemanlı boş bir tamsayı dizisi oluşturunuz. Dizinin her bir elemanına 1 ile 100 arasında rastgele bir sayı atayınız.*
@@ -225,7 +225,7 @@ Algoritma Uygulaması 6 (Hafta 11)
 >
 >**İpucu:** ***Random rnd = new Random(1,101);** sınıfını kullanabilirsiniz.*
 >***
->**B Grubu:**
+>### B Grubu:
 >
 >10 elemanlı bir tamsayı dizisi oluşturup bu dizinin her elemanına -100 ile 100 arasında rastgele üretilmiş sayılar atanmasını sağlayan bir C# programı yazınız.
 >
@@ -244,7 +244,7 @@ Algoritma Uygulaması 6 (Hafta 11)
 >*	*Dizide kaç adet NÖTR sayı bulunduğu.*
 >**İpucu:** ***Random rnd = new Random(-100,101);** sınıfını kullanabilirsiniz.*
 >***
->**C Grubu:**
+>### C Grubu:
 >
 >*Bellekte 10 elemanlı bir tamsayı dizisi oluşturan bir C# programı yazınız.*
 >
@@ -271,7 +271,7 @@ Algoritma Uygulaması 6 (Hafta 11)
 Algoritma Uygulaması 7 (Hafta 11)
 ---
 >[!TIP]
->**A Grubu:**
+>### A Grubu:
 >
 >*Bir sayı listesi üzerinde analiz yaptığınızı varsayarak aşağıdaki işlemleri sırasıyla gerçekleştiren bir C# programı yazınız:*
 >
@@ -289,7 +289,7 @@ Algoritma Uygulaması 7 (Hafta 11)
 >
 >***6.** Son olarak listenin son halini **Reverse metodu** ile ters çevirip tüm elemanları ekrana yazdırınız.*
 >***
->**B Grubu:**
+>### B Grubu:
 >
 >*Bir turizm acentesi için şehir listesi yönettiğinizi varsayarak aşağıdaki işlemleri gerçekleştiren bir C# programı yazınız.:*
 >
@@ -308,7 +308,7 @@ Algoritma Uygulaması 7 (Hafta 11)
 >***6.** Son olarak listenin eleman sayısını **(Count)** ekrana yazdırınız ve listedeki tüm şehirleri ekrana yazdırınız.*
 >*	*Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 >
->**C Grubu:**
+>### C Grubu:
 >
 >*Bir online market uygulaması için ürün sepeti yönettiğinizi varsayarak aşağıdaki işlemleri gerçekleştiren bir C# programı yazınız:*
 >
@@ -331,7 +331,7 @@ Algoritma Uygulaması 7 (Hafta 11)
 Algoritma Uygulaması 8 (Hafta 13)
 ---
 >[!TIP]
->**A Grubu:**
+>### A Grubu:
 >
 >*Bir kütüphanedeki kitapların listesini tutarak aşağıdaki işlemleri sırasıyla gerçekleştiren bir C# programı yazınız:*
 >
@@ -359,7 +359,7 @@ Algoritma Uygulaması 8 (Hafta 13)
 >
 >* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
 >***
->**B Grubu:**
+>### B Grubu:
 >
 >*Bir marketteki ürünlerin fiyatlarını tutan ve aşağıdaki işlemleri sırasıyla gerçekleştiren bir C# programı yazınız:*
 >
@@ -387,7 +387,7 @@ Algoritma Uygulaması 8 (Hafta 13)
 >
 >* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
 >***
->**C Grubu:**
+>### C Grubu
 >
 >*Bir etkinlik için davetli listesi kontrolü yapan ve aşağıdaki işlemleri sırasıyla gerçekleştiren bir C# programı yazınız:*
 >
@@ -415,7 +415,93 @@ Algoritma Uygulaması 8 (Hafta 13)
 >
 >**3.** *Güncellenmiş davetli listesini ekrana yazdırınız.*
 >
->* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir. 
+>* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
+
+Algoritma Uygulaması 9 (Hafta 14)
+---
+>[!TIP]
+>### A Grubu:
+>
+>*Kullanıcıdan alınan 5 elemanlı bir tamsayı dizisinin Testere (Zigzag) Dizisi olup olmadığını kontrol eden bir C# programı yazınız.*
+>
+>***Dizi elemanları sırasıyla:***
+>
+>*Bir artan, bir azalan, veya bir azalan, bir artan şekilde ilerlemelidir.*
+>
+
+>[!WARNING]
+>* *Yan yana eşit iki eleman olması kuralı bozar.*
+>
+>* *Üst üste iki artış veya iki azalış olması kuralı bozar.*
+>
+>* *Dizinin ilk iki elemanı, dizinin başlangıç yönünü belirler.*
+>* 
+>***Örnek:***
+>
+>* *[1, 5, 2, 8, 3] -> (Arttı, azaldı, arttı, azaldı) ->*
+>**$\color{green}\mathbf{DOĞRU}$**
+>
+>* *[1, 2, 3, 5, 2] -> (Üst üste arttı) ->*
+>**$\color{red}\mathbf{YANLIŞ}$**
+>***
+>[!TIP]
+>### B Grubu:
+>*Kullanıcıdan alınan bir tamsayı dizisinin Simetrik (Ayna / Palindrom) Dizi olup olmadığını kontrol eden bir C# programı yazınız.*
+>
+>**1.** *Kullanıcıdan önce dizinin eleman sayısı alınacaktır. Ardından n elemanlı bir tamsayı dizisi girilecektir.
+>**2.** *Bir dizi; Baştan sona ve sondan başa okunduğunda aynı ise **simetrik(ayna)** dizidir.
+>***Eğer dizi simetrik ise:***
+>
+>* *Dizideki simetrik çift sayısını ekrana yazdırınız.*
+>
+>***Eğer dizi simetrik değil ise:***
+>
+>* *Eşitliğin ilk bozulduğu indeks değerini yazdırınız.*
+>
+>* *Ayrıca eşleşen simetrik çift sayısını ekrana yazdırınız.*
+>* 
+>***Örnek:***
+>
+>|Dizi: [1, 4, 9, 3, 1]| Dizi: [1, 4, 9, 4, 1]|
+>|:--:|:--:|
+>|**Çıktı:** Dizi simetrik değildir.| **Çıktı:** Dizi simetriktir.|
+>|Eşitliğin bozulduğu indeks: 1| Simetrik çift sayısı: 2|
+>|Eşleşen simetrik çift sayısı: 1| Hepsinin eşi var |
+>***
+
+>[!TIP]
+>### C Grubu:
+>
+> *Oluşturulan dizide, yan yana aynı değerin en fazla kaç kez tekrar ettiğini bulan bir C# programı yazınız.*
+>
+>* *Program, 10 elemanlı bir tamsayı dizisini otomatik olarak oluşturacaktır.*
+>
+>* *Dizinin her elemanı 1 ile 5 arasında rastgele (Random) bir değer alacaktır.*
+>
+>***Çalışma Mantığı:***
+>
+>***Random sınıfını kullanarak:***
+>* *10 elemanlı bir tamsayı dizisini 1–5 aralığında değerlerle doldurunuz.*
+>* *Oluşturulan diziyi ekrana yazdırınız.*
+>  ***Dizideki;***
+>* *En uzun tekrar sayısını,*
+>* *Bu tekrarın hangi sayıya ait olduğunu,*
+>* *Ve başlangıç indeksini ekrana yazdırınız.*
+
+>[!NOTE]
+>*Eğer birden fazla en uzun ardışık değer varsa, ilk görüleni dikkate alınız.*
+>|Oluşturulan Dizi:| [3, 3, 3, 1, 5, 5, 2, 4, 4, 1]
+>|:--:|:--:|
+>|En uzun tekrar:| 3|
+>|Sayı:| 3|
+>|Başlangıç indeksi:| 0|
+
+
+
+
+
+
+
 
 
 
