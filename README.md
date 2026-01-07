@@ -1,0 +1,1 @@
+# 2526_Algoritma1-Dersi_Algoritmalar-
