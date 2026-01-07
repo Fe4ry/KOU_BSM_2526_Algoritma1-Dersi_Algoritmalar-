@@ -1,5 +1,5 @@
 # 2025-2026 Programlama Laboratuvarı Algoritmaları
-Bu içerik  ***Kocaeli Üniversitesi / Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı-1 (Yavuz Selim FATİHOĞLU)* dersini alan öğrenciler için algoritma pratiği yapabilmeleri amacıyla oluşturulmuştur.
+Bu depo  ***Kocaeli Üniversitesi / Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı-1 (Yavuz Selim FATİHOĞLU)* dersini alan öğrenciler için algoritma pratiği yapabilmeleri amacıyla oluşturulmuştur.
 ## Algoritma Uygulaması 1 (Hafta 3)
 
 >[!TIP]
@@ -79,8 +79,7 @@ Algoritma Uygulaması 3 (Hafta 5)
 >***
 >### C Grubu:
 >
->Flowgorithm kullanarak,
->kullanıcının girdiği 5 adet sayıdan kaç tanesinin çift olduğunu ve bu sayıların toplamını bulan algoritmanın akış diyagramını hazırlayınız.
+>*Flowgorithm kullanarak, kullanıcının girdiği 5 adet sayıdan kaç tanesinin çift olduğunu ve bu sayıların toplamını bulan algoritmanın akış diyagramını hazırlayınız.*
 
 Algoritma Uygulaması 4 (Ödevler) (Hafta 7)
  ---
@@ -102,7 +101,7 @@ Algoritma Uygulaması 4 (Ödevler) (Hafta 7)
 >[!TIP]
 >### Ödev 2:
 >
->Klavyeden girilen sayının asal olup olmadığını bulan algoritmayı hazırlayınız.
+>*Klavyeden girilen sayının asal olup olmadığını bulan algoritmayı hazırlayınız.*
 
 >[!NOTE]
 >*	**Asal Sayı:** *Yalnız ve yalnız iki böleni olan doğal sayılardır. Kendisinden ve 1 sayısından başka böleni olmayan sayılara denilmektedir.*
@@ -166,11 +165,11 @@ Algoritma Uygulaması 6 (Hafta 9):
 >[!TIP]
 >### A Grubu:
 >
->Kullanıcıdan bir kelime alınız. Girilen kelimenin karakterlerini tersten ekrana yazdıran bir algoritmayı Flowgorithm'de oluşturunuz.
+>*Kullanıcıdan bir kelime alınız. Girilen kelimenin karakterlerini tersten ekrana yazdıran bir algoritmayı Flowgorithm'de oluşturunuz.*
 >
 >**İpucu:** *String’in uzunluğunu belirlemek için **Length -Len()-*** özelliğini kullanabilirsiniz.Dizinin son karakteri **Length - 1** indeksinde yer alır.*
 >
->Son karakterden başlayıp başa doğru gidecek şekilde bir döngü kullanarak karakterleri ekrana yazdırabilirsiniz.*
+>*Son karakterden başlayıp başa doğru gidecek şekilde bir döngü kullanarak karakterleri ekrana yazdırabilirsiniz.*
 >
 >***Örnek:***
 >*	*Girdi → Kocaeli*
@@ -180,7 +179,7 @@ Algoritma Uygulaması 6 (Hafta 9):
 >
 >*Kullanıcıdan bir kelime alınız. Kelimenin baştan ve sondan karakterlerini karşılaştırarak kelimenin palindrom olup olmadığını kontrol eden bir algoritmayı Flowgorithm’de oluşturunuz.*
 >
->Eğer tüm karakterler eşitse ekrana "Kelime palindromdur.", değilse "Kelime palindrom değildir." yazdırınız.
+>*Eğer tüm karakterler eşitse ekrana "Kelime palindromdur.", değilse "Kelime palindrom değildir." yazdırınız.*
 
 >[!NOTE]
 >* ***Palindrom:** Hem sağ taraftan hem de sol taraftan okunduğunda aynı olan kelime veya kelime gruplarıdır.*
@@ -195,7 +194,7 @@ Algoritma Uygulaması 6 (Hafta 9):
 >*	
 >### C Grubu:
 >
->Kullanıcıdan bir kelime alınız. Kelimenin her karakterini kontrol ederek sesli harflerin **(a, e, ı, i, o, ö, u, ü)** sayısını bulup ekrana yazdıran bir algoritmayı Flowgorithm’de oluşturunuz.
+>*Kullanıcıdan bir kelime alınız. Kelimenin her karakterini kontrol ederek sesli harflerin **(a, e, ı, i, o, ö, u, ü)** sayısını bulup ekrana yazdıran bir algoritmayı Flowgorithm’de oluşturunuz.*
 >
 >**İpucu:** *String’in uzunluğunu belirlemek için **Length -Len()-** özelliğini kullanabilirsiniz.*
 >
@@ -228,7 +227,7 @@ Algoritma Uygulaması 7 (Hafta 11)
 >***
 >### B Grubu:
 >
->10 elemanlı bir tamsayı dizisi oluşturup bu dizinin her elemanına -100 ile 100 arasında rastgele üretilmiş sayılar atanmasını sağlayan bir C# programı yazınız.
+>*10 elemanlı bir tamsayı dizisi oluşturup bu dizinin her elemanına -100 ile 100 arasında rastgele üretilmiş sayılar atanmasını sağlayan bir C# programı yazınız.*
 >
 >*Program, tüm elemanlar oluşturulduktan sonra dizinin **içindeki sayıların tamamını ekrana listelemeli** ve dizide kaç adet **negatif**, kaç adet **pozitif** ve kaç adet **nötr** sayı bulunduğunu hesaplayıp sonuçları kullanıcıya göstermelidir.* 
 >
@@ -340,25 +339,25 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**1.** *İçinde "Nutuk", "Sefiller", "Suç ve Ceza", "Simyacı" kitaplarının olduğu bir **ArrayList** oluşturunuz.*
 >
->**2.** *Kullanıcıdan kiralamak istediği kitabın ismini alınız.
+>**2.** *Kullanıcıdan kiralamak istediği kitabın ismini alınız.*
 >
->**3.** *IndexOf kullanarak kitabın listede olup olmadığını kontrol ediniz.
+>**3.** *IndexOf kullanarak kitabın listede olup olmadığını kontrol ediniz.*
 >
 >**Eğer kitap listede varsa:**
 >
 >**4.** *Kitap listesini alfabetik olarak sıralayınız.*
 >
->**5.** *BinarySearch kullanarak kitabın sıralı listedeki konumunu bulunuz ve ekrana yazdırınız.
+>**5.** *BinarySearch kullanarak kitabın sıralı listedeki konumunu bulunuz ve ekrana yazdırınız.*
 >
->**6.** *"Kitap bulundu, kiralandı." mesajını yazdırınız.
+>**6.** *"Kitap bulundu, kiralandı." mesajını yazdırınız.*
 >
->**7.** *Kitabı listeden siliniz.
+>**7.** *Kitabı listeden siliniz.*
 >
 >**Eğer kitap listede yoksa:**
 >
->**8.** *"Kitap kütüphanemizde bulunmamaktadır." mesajını yazdırınız.
+>**8.** *"Kitap kütüphanemizde bulunmamaktadır." mesajını yazdırınız.*
 >
->* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
+>*        *Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 >***
 >### B Grubu:
 >
@@ -386,7 +385,7 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**8.** *"Bu fiyatta bir ürün bulunamadı." mesajını yazdırınız.*
 >
->* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
+>* *Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 >***
 >### C Grubu
 >
@@ -416,7 +415,7 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**3.** *Güncellenmiş davetli listesini ekrana yazdırınız.*
 >
->* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
+>* *Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 
 Algoritma Uygulaması 10 (Hafta 14)
 ---
@@ -496,22 +495,6 @@ Algoritma Uygulaması 10 (Hafta 14)
 >|En uzun tekrar:| 3|
 >|Sayı:| 3|
 >|Başlangıç indeksi:| 0|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
