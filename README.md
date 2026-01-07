@@ -36,9 +36,7 @@ Algoritma Uygulaması 2 (Hafta 4)
 >[!TIP]
 >**A Grubu:**
 >
->*Flowgorithm kullanarak,*
->
->0 ile 100 arasında rastgele üretilen 50 sayıdan çift sayıların toplamını ve tek sayıların toplamını bulan bir akış diyagramı oluşturunuz.*
+>*Flowgorithm kullanarak, 0 ile 100 arasında rastgele üretilen 50 sayıdan çift sayıların toplamını ve tek sayıların toplamını bulan bir akış diyagramı oluşturunuz.*
 >
 >*1- Random 50 sayı oluşturunuz ve bu sayıları ekrana yazdırınız.*
 >
@@ -181,9 +179,7 @@ Algoritma Uygulaması 5 (Hafta 9):
 >
 >**B Grubu:**
 >
->*Kullanıcıdan bir kelime alınız.*
->
->*Kelimenin baştan ve sondan karakterlerini karşılaştırarak kelimenin palindrom olup olmadığını kontrol eden bir algoritmayı Flowgorithm’de oluşturunuz.*
+>*Kullanıcıdan bir kelime alınız. Kelimenin baştan ve sondan karakterlerini karşılaştırarak kelimenin palindrom olup olmadığını kontrol eden bir algoritmayı Flowgorithm’de oluşturunuz.*
 >
 >Eğer tüm karakterler eşitse ekrana "Kelime palindromdur.", değilse "Kelime palindrom değildir." yazdırınız.
 
@@ -317,17 +313,116 @@ Algoritma Uygulaması 7 (Hafta 11)
 >*Bir online market uygulaması için ürün sepeti yönettiğinizi varsayarak aşağıdaki işlemleri gerçekleştiren bir C# programı yazınız:*
 >
 >***1.** sepet isminde bir **ArrayList** oluşturunuz ve listeye “Süt”, “Un”, “Yağ”, “Şeker”, “Tuz” ürünlerini ekleyiniz.*
+>
 >***2.** Listeyi alfabetik **(Sort)** olarak sıralayınız.*
+>
 >***3.** Sıralanan listeden “Tuz” ürününü **Remove metodu** ile siliniz.*
+>
 >***4.** Listenin 1. indeksine “Makarna” ürününü **Insert metodu** ile ekleyiniz.*
+>
 >***5.** Sepetin **Capacity** değerini ekrana yazdırıniz.*
+>
 >***6.** Listenin içinde “Şeker” ürününün bulunup bulunmadığını **Contains** ile kontrol ederek uygun bir mesaj yazdırınız.*
+>
 >***7.** Son olarak listeyi **Reverse metodu** ile ters çevirin ve oluşan son hâli ekrana yazdırınız.*
 >
 >*	*Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 
 Algoritma Uygulaması 8 (Hafta 13)
 ---
+>[!TIP]
+>**A Grubu:**
+>
+>*Bir kütüphanedeki kitapların listesini tutarak aşağıdaki işlemleri sırasıyla gerçekleştiren bir C# programı yazınız:*
+>
+>***Çalışma Mantığı:***
+>
+>**1.** *İçinde "Nutuk", "Sefiller", "Suç ve Ceza", "Simyacı" kitaplarının olduğu bir **ArrayList** oluşturunuz.*
+>
+>**2.** *Kullanıcıdan kiralamak istediği kitabın ismini alınız.
+>
+>**3.** *IndexOf kullanarak kitabın listede olup olmadığını kontrol ediniz.
+>
+>**Eğer kitap listede varsa:**
+>
+>**4.** *Kitap listesini alfabetik olarak sıralayınız.*
+>
+>**5.** *BinarySearch kullanarak kitabın sıralı listedeki konumunu bulunuz ve ekrana yazdırınız.
+>
+>**6.** *"Kitap bulundu, kiralandı." mesajını yazdırınız.
+>
+>**7.** *Kitabı listeden siliniz.
+>
+>**Eğer kitap listede yoksa:**
+>
+>**8.** *"Kitap kütüphanemizde bulunmamaktadır." mesajını yazdırınız.
+>
+>* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
+>***
+>**B Grubu:**
+>
+>*Bir marketteki ürünlerin fiyatlarını tutan ve aşağıdaki işlemleri sırasıyla gerçekleştiren bir C# programı yazınız:*
+>
+>***Çalışma Mantığı:***
+>
+>**1.** *İçinde rastgele 5 adet ürün fiyatının (örneğin: 10, 50, 25, 100, 5) bulunduğu sayısal bir **ArrayList** oluşturunuz.*
+>
+>**2.** *Kullanıcıdan bir fiyat değeri alınız.*
+>
+>**3.** ***IndexOf** kullanarak listede girilen fiyatta bir ürün olup olmadığını kontrol ediniz.*
+>
+>***"Eğer girilen fiyat listede varsa:***
+>
+>**4.** *Fiyat listesini küçükten büyüğe sıralayınız.*
+>
+>**5.** ***BinarySearch** *kullanarak girilen fiyatın sıralı listedeki indeksini bulunuz ve ekrana yazdırınız.*
+>
+>**6.** *Girilen fiyatın orijinal listedeki değerini 2 katı ile güncelleyiniz.*
+>
+>**7.** *Güncellenmiş fiyat listesini ekrana yazdırınız.*
+>
+>***Eğer girilen fiyat listede yoksa:***
+>
+>**8.** *"Bu fiyatta bir ürün bulunamadı." mesajını yazdırınız.*
+>
+>* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.
+>***
+>**C Grubu:**
+>
+>*Bir etkinlik için davetli listesi kontrolü yapan ve aşağıdaki işlemleri sırasıyla gerçekleştiren bir C# programı yazınız:*
+>
+>***Çalışma Mantığı:***
+>
+>*İçinde "Ali", "Mehmet", "Zeynep", "Ayşe", "Emre" isimlerinin olduğu bir *ArrayList* oluşturunuz.*
+>
+>*Kontrolü yapan görevli (kullanıcı) gelen kişinin ismini girmelidir.*
+>
+> **IndexOf** *kullanarak girilen ismin davetli listesinde olup olmadığını kontrol ediniz.*
+>
+>***Eğer kişi listede varsa:***
+>
+>**1.** *Davetli listesini alfabetik olarak sıralayınız.*
+>
+>**2.** *BinarySearch kullanarak kişinin sıralı listedeki indeksini bulunuz ve ekrana yazdırınız.*
+>
+>**3.** *"Giriş yapabilirsiniz, hoş geldiniz." mesajını yazdırınız.*
+>
+>***Eğer kişi listede yoksa:***
+>
+>**1.** *"İsminiz listede yok, şu an listeye eklendiniz." mesajını yazdırınız.*
+>
+>**2.** *Girilen ismi listenin sonuna ekleyiniz.*
+>
+>**3.** *Güncellenmiş davetli listesini ekrana yazdırınız.*
+>
+>* Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir. 
+
+
+
+
+
+
+
 
 
 
