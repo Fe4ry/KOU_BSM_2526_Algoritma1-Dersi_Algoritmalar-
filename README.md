@@ -63,9 +63,11 @@ Algoritma Uygulaması 3 (Hafta 5)
 >
 >*Flowgorithm kullanarak, girilen 4 basamaklı pozitif bir sayının basamaklarının karelerinin toplamını bulan algoritmanın akış diyagramını hazırlayınız.*
 >
->***Örn:*** *1234 → 1² + 2² + 3² + 4² = 30*
+>**İpucu 1: Flowgorithmde üs almak klasik şekilde kullanılır. 2^3 şeklinde, 2nin 3. kuvvetini alır.**
 >
->**İpucu: Girilen sayının basamaklarını bulmak için mod alma ve bölme işlemlerini kullanabilirsiniz.**
+>***Örn:*** *1234 → 1^2 + 2^2 + 3^2 + 4^2 = 30*
+>
+>**İpucu 2: Girilen sayının basamaklarını bulmak için mod alma ve bölme işlemlerini kullanabilirsiniz.**
 >
 >***Örn:*** *Yüzler basamağını bulmak için: (1234 % 1000) / 100 = 2*
 >***
