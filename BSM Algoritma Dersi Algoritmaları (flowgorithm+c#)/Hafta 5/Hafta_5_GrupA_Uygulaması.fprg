@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hafta_5_GrupA_Uygulamas&#305;"/>
+        <attribute name="authors" value="fhrdd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-12 01:37:43 &#214;S"/>
+        <attribute name="created" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTI7MDE6MjU6MTggw5ZTOzI0MDk="/>
+        <attribute name="edited" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTI7MDE6Mzc6NDMgw5ZTOzE7MjUxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="basamak" type="Integer" array="False" size=""/>
+            <declare name="basamakTop" type="Integer" array="False" size=""/>
+            <assign variable="basamakTop" expression="0"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;D&#246;rt basamakl&#305; bir say&#305; gir hocam =&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <for variable="i" start="0" end="3" direction="inc" step="1">
+                <assign variable="basamak" expression="sayi%10"/>
+                <assign variable="basamakTop" expression="basamakTop+basamak^2"/>
+                <assign variable="sayi" expression="sayi/10"/>
+            </for>
+            <output expression="&quot;Rakamlar&#305;n karesinin toplam&#305; =&quot;&amp;basamakTop" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

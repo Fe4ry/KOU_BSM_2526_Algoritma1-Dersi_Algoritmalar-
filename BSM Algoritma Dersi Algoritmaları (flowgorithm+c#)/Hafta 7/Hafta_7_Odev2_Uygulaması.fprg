@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hafta_7_Odev1_Uygulamas&#305;"/>
+        <attribute name="authors" value="fhrdd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-14 12:13:08 &#214;&#214;"/>
+        <attribute name="created" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTM7MTE6Mzg6MDggw5ZTOzI0MTQ="/>
+        <attribute name="edited" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTQ7MTI6MTM6MDggw5bDljszOzI2NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="geciciSayi" type="Integer" array="False" size=""/>
+            <declare name="bolenSayisi" type="Integer" array="False" size=""/>
+            <assign variable="bolenSayisi" expression="2"/>
+            <output expression="&quot;Bir say&#305; giriniz:&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="geciciSayi" expression="sayi"/>
+            <if expression="sayi&lt;2">
+                <then>
+                    <assign variable="bolenSayisi" expression="bolenSayisi+1"/>
+                    <assign variable="geciciSayi" expression="0"/>
+                </then>
+                <else/>
+            </if>
+            <for variable="i" start="2" end="geciciSayi-1" direction="inc" step="1">
+                <if expression="sayi%i==0">
+                    <then>
+                        <assign variable="bolenSayisi" expression="bolenSayisi+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <if expression="bolenSayisi&gt;2">
+                <then>
+                    <output expression="sayi&amp;&quot; say&#305;s&#305; ASAL DE&#286;&#304;LD&#304;R.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="sayi&amp;&quot; say&#305;s&#305; ASALDIR.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
