@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hafta_9_GrupC_Uygulamas&#305;s"/>
+        <attribute name="authors" value="fhrdd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-17 12:46:28 &#214;&#214;"/>
+        <attribute name="created" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTc7MTI6MDg6MjYgw5bDljsyNTQ3"/>
+        <attribute name="edited" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTc7MTI6NDY6Mjggw5bDljszOzI2NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kelime" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="topSesli" type="Integer" array="False" size=""/>
+            <assign variable="topSesli" expression="0"/>
+            <output expression="&quot;Bir kelime gir:&quot;" newline="True"/>
+            <input variable="kelime"/>
+            <for variable="i" start="0" end="Len(kelime)-1" direction="inc" step="1">
+                <comment text="Bu ko&#351;ulda kelimenin herbir harfin sesli harf olup olmad&#305;&#287;&#305; ko&#351;ulunu sorgulad&#305;&#287;&#305;m&#305;z bir if ko&#351;ulu diyagram&#305;n&#305; olu&#351;turuyoruz."/>
+                <if expression="Char(kelime,i) ==&quot;a&quot; or Char(kelime,i) ==&quot;A&quot; or Char(kelime,i) ==&quot;e&quot; or Char(kelime,i) ==&quot;E&quot; or Char(kelime,i) ==&quot;&#305;&quot; or Char(kelime,i) ==&quot;I&quot; or Char(kelime,i) ==&quot;i&quot; or Char(kelime,i)==&quot;&#304;&quot; or&#13;&#10;Char(kelime,i) ==&quot;o&quot; or Char(kelime,i) ==&quot;O&quot;  or Char(kelime,i) ==&quot;&#246;&quot; or Char(kelime,i) ==&quot;&#214;&quot;  or&#13;&#10;Char(kelime,i) ==&quot;u&quot; or Char(kelime,i)==&quot;U&quot;   or&#13;&#10;Char(kelime,i) ==&quot;&#252;&quot; or Char(kelime,i) ==&quot;&#220;&quot;">
+                    <then>
+                        <output expression="&quot;Sesli harf: &quot; &amp;Char(kelime,i)" newline="True"/>
+                        <assign variable="topSesli" expression="topSesli+1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;(&quot;&amp;kelime&amp;&quot;) ifadesindeki toplam sesli harf say&#305;s&#305;: &quot;&amp;topSesli" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

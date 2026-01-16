@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hafta_8_GrupA_Uygulamas&#305;"/>
+        <attribute name="authors" value="fhrdd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-16 10:14:04 &#214;S"/>
+        <attribute name="created" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTY7MDk6NDM6MjUgw5ZTOzI0MTk="/>
+        <attribute name="edited" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTY7MTA6MTQ6MDQgw5ZTOzY7MjUxOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="basamakTop" type="Integer" array="False" size=""/>
+            <assign variable="basamakTop" expression="0"/>
+            <output expression="&quot;5 basamakl&#305; bir say&#305; gir:&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <while expression="sayi&lt;10000 or sayi&gt;99999">
+                <output expression="&quot;5 basamakl&#305; bir say&#305; girmelisin:&quot;" newline="True"/>
+                <input variable="sayi"/>
+            </while>
+            <output expression="sayi&amp;&quot; say&#305;s&#305;ndaki basamaklar&#305;ndaki rakamlar&#305;n toplam&#305;:&quot;" newline="True"/>
+            <for variable="i" start="0" end="4" direction="inc" step="1">
+                <assign variable="basamakTop" expression="basamakTop + (sayi%10)"/>
+                <output expression="(sayi%10)" newline="True"/>
+                <assign variable="sayi" expression="sayi/10"/>
+            </for>
+            <output expression="&quot;= &quot;&amp;basamakTop" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
