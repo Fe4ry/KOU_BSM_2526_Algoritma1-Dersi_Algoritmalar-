@@ -130,13 +130,13 @@ Algoritma Uygulaması 5 (Hafta 8)
 >
 >### B Grubu:
 >
->*Kullanıcıdan 5 elemanlı bir tamsayı dizisi girmesini isteyen ve dizideki tüm sayıların toplamını ekrana yazdıran bir Flowgorithm algoritması tasarlayınız.*
+>*Kullanıcıdan 5 elemanlı bir tamsayı girmesini isteyen ve sayının basamaklarındaki rakamların toplamını ekrana yazdıran bir Flowgorithm algoritması tasarlayınız.*
 >
 >***Çalışma Mantığı:***
 >
 >*- Kullanıcıdan 5 adet tamsayıyı sırayla alın ve sayilar adlı bir diziye kaydedin.*
 >
->*	*sayilar[0] = 2, sayilar[1] = 3, sayilar[2] = 5 , sayilar[3] = 4 , sayilar[4] = 1*
+>*	*12345 = 1 + 2 + 3 + 4 + 5*
 >
 >*- Dizideki elemanların toplamını hesaplayın.*
 >
@@ -146,21 +146,21 @@ Algoritma Uygulaması 5 (Hafta 8)
 >
 >### C Grubu:
 >
->*Kullanıcıdan 5 elemanlı bir tamsayı dizisi girmesini isteyen ve dizideki her sayının karesini hesaplayıp ekrana yazdıran bir Flowgorithm algoritması oluşturunuz.*
+>*Kullanıcıdan 5 elemanlı bir tamsayı girmesini isteyen ve sayının basamaklarındaki her rakamın karesini hesaplayıp ekrana yazdıran bir Flowgorithm algoritması oluşturunuz.*
 >
 >***Çalışma Mantığı:***
 >
 >*Kullanıcıdan 5 adet tamsayıyı sırayla alın ve sayilar adlı bir diziye kaydedin.*
 >
->*	*sayilar[0] = 2, sayilar[1] = 3, sayilar[2] = 5 , sayilar[3] = 4 , sayilar[4] = 1*
+>*	*12345 = 1^2 + 2^2 + 3^2 + 4^2 + 5^2*
 >
 >*- Döngü kullanarak her sayının karesini bulun.*
 >
 >*- Her sayının karesini ekrana yazdırın.*
 >
->*	*Girdi: 2, 3, 5, 4, 1*
+>*	*Girdi: 12345*
 >
->*	*Çıktı: 4, 9, 15, 16, 1*
+>*	*Çıktı: 25 + 16 + 9 + 4 + 1 = 55*
 
 Algoritma Uygulaması 6 (Hafta 9):
 ---
