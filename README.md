@@ -271,7 +271,7 @@ Algoritma Uygulaması 7 (Hafta 11)
 >*	*Dizinin en büyük elemanı ve kaçıncı sırada girildiği,*
 >*	*Dizinin en küçük elemanı ve kaçıncı sırada girildiği.*
 
-Algoritma Uygulaması 8 (Hafta 11)
+Algoritma Uygulaması 8 (Hafta 12)
 ---
 >[!TIP]
 >### A Grubu:
