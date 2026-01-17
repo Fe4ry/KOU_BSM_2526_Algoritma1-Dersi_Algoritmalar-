@@ -170,7 +170,7 @@ Algoritma Uygulaması 6 (Hafta 9):
 >
 >*Kullanıcıdan bir kelime alınız. Girilen kelimenin karakterlerini tersten ekrana yazdıran bir algoritmayı Flowgorithm'de oluşturunuz.*
 >
->**İpucu:** *String’in uzunluğunu belirlemek için **Length -Len()-*** özelliğini kullanabilirsiniz.Dizinin son karakteri **Length - 1** indeksinde yer alır.*
+>**İpucu:** *String’in uzunluğunu belirlemek için **Length -Len()-** özelliğini kullanabilirsiniz.Dizinin son karakteri **Length - 1** indeksinde yer alır.*
 >
 >*Son karakterden başlayıp başa doğru gidecek şekilde bir döngü kullanarak karakterleri ekrana yazdırabilirsiniz.*
 >
@@ -194,7 +194,7 @@ Algoritma Uygulaması 6 (Hafta 9):
 >
 >*	*Girdi -> kazak/kazak -> Çıktı -> Kelime palindromdur.*
 >*	*Girdi -> masal/lasam -> Çıktı -> Kelime palindrom değildir.*
->*	
+>
 >### C Grubu:
 >
 >*Kullanıcıdan bir kelime alınız. Kelimenin her karakterini kontrol ederek sesli harflerin **(a, e, ı, i, o, ö, u, ü)** sayısını bulup ekrana yazdıran bir algoritmayı Flowgorithm’de oluşturunuz.*
@@ -291,6 +291,7 @@ Algoritma Uygulaması 8 (Hafta 12)
 >***5.** Listenin içinde 88 sayısının bulunup bulunmadığını Contains ile kontrol ederek ekrana **“Var”** veya **“Yok”** yazdırınız.*
 >
 >***6.** Son olarak listenin son halini **Reverse metodu** ile ters çevirip tüm elemanları ekrana yazdırınız.*
+>*	*Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 >***
 >### B Grubu:
 >
@@ -346,7 +347,7 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**3.** *IndexOf kullanarak kitabın listede olup olmadığını kontrol ediniz.*
 >
->**Eğer kitap listede varsa:**
+>***Eğer kitap listede varsa:***
 >
 >**4.** *Kitap listesini alfabetik olarak sıralayınız.*
 >
@@ -356,7 +357,7 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**7.** *Kitabı listeden siliniz.*
 >
->**Eğer kitap listede yoksa:**
+>***Eğer kitap listede yoksa:***
 >
 >**8.** *"Kitap kütüphanemizde bulunmamaktadır." mesajını yazdırınız.*
 >
@@ -374,7 +375,7 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**3.** ***IndexOf** kullanarak listede girilen fiyatta bir ürün olup olmadığını kontrol ediniz.*
 >
->***"Eğer girilen fiyat listede varsa:***
+>***Eğer girilen fiyat listede varsa:***
 >
 >**4.** *Fiyat listesini küçükten büyüğe sıralayınız.*
 >
@@ -447,6 +448,7 @@ Algoritma Uygulaması 10 (Hafta 14)
 >* *[1, 2, 3, 5, 2] -> (Üst üste arttı) ->*
 >**$\color{red}\mathbf{YANLIŞ}$**
 >***
+
 >[!TIP]
 >### B Grubu:
 >*Kullanıcıdan alınan bir tamsayı dizisinin Simetrik (Ayna / Palindrom) Dizi olup olmadığını kontrol eden bir C# programı yazınız.*
