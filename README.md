@@ -360,7 +360,7 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**8.** *"Kitap kütüphanemizde bulunmamaktadır." mesajını yazdırınız.*
 >
->*        *Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
+>* *Her adımdan sonra listeyi ekrana yazdırmanız gerekmektedir.*
 >***
 >### B Grubu:
 >
