@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hafta_9_GrupA_Uygulamas&#305;"/>
+        <attribute name="authors" value="fhrdd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-17 12:44:37 &#214;&#214;"/>
+        <attribute name="created" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTY7MTA6Mjk6NDAgw5ZTOzI0MTI="/>
+        <attribute name="edited" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTc7MTI6NDQ6Mzcgw5bDljs0OzI2NjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kelime" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir kelime gir:&quot;" newline="True"/>
+            <input variable="kelime"/>
+            <declare name="palindromMu" type="Boolean" array="False" size=""/>
+            <assign variable="palindromMu" expression="true"/>
+            <declare name="kelimeDizi" type="String" array="True" size="Len(kelime)"/>
+            <declare name="terstenKelimeDizi" type="String" array="True" size="Len(kelime)"/>
+            <for variable="i" start="0" end="Len(kelime)-1" direction="inc" step="1">
+                <comment text="Burada kelimeyi Char(kelime,indis) metodu sayesinde diziye atama yap&#305;yoruz."/>
+                <assign variable="kelimeDizi[i]" expression="Char(kelime,i)"/>
+            </for>
+            <for variable="i" start="Len(kelime)-1" end="0" direction="dec" step="1">
+                <comment text="Burada terstenKelimeDizi'sini Char metodu sayesinde kelimeyi tersten okutarak harfleri at&#305;yoruz i =0 a atay&#305;p, Char metodu ile Len(kelime)-1 -i yaparak kelimeyi tersten okumay&#305; sa&#287;l&#305;yoruz. Bu durumda ak&#305;&#351; b&#246;yle olur: terstenKelimeDizi[0] = Char(kelimenin son harfi) b&#246;yle gider..."/>
+                <assign variable="terstenKelimeDizi[i]" expression="Char(kelime,Len(kelime)-1-i)"/>
+                <comment text="A&#351;a&#287;&#305;daki &#351;emada kelimenin tersten yaz&#305;l&#305;&#351;&#305; ile d&#252;z yaz&#305;l&#305;&#351;&#305;n&#305;n harfleriyle birlikte kontrol ediyoruz e&#287;er biri e&#351;it olmad&#305;&#287;&#305;nda palindrom olmad&#305;&#287;&#305; i&#231;in palindromMu de&#287;i&#351;kenini false olarak at&#305;yoruz. E&#287;er hi&#231; yanl&#305;&#351; olmazsa zaten ba&#351;ta de&#287;i&#351;keni true olarak tan&#305;mlad&#305;&#287;&#305;m&#305;zdan mant&#305;k do&#287;ru i&#351;liyor."/>
+                <if expression="terstenKelimeDizi[i]==kelimeDizi[i]">
+                    <then/>
+                    <else>
+                        <assign variable="palindromMu" expression="false"/>
+                    </else>
+                </if>
+            </for>
+            <if expression="palindromMu==true">
+                <then>
+                    <output expression="kelime&amp;&quot; palindromdur.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="kelime&amp;&quot; palindrom de&#287;ildir.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

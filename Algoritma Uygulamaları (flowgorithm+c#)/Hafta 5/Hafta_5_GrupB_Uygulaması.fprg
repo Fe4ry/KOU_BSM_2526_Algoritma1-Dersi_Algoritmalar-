@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hafta_5_GrupB_Uygulamas&#305;"/>
+        <attribute name="authors" value="fhrdd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-12 01:46:05 &#214;S"/>
+        <attribute name="created" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTI7MDE6Mzg6Mjcgw5ZTOzI0MTM="/>
+        <attribute name="edited" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTI7MDE6NDY6MDUgw5ZTOzI7MjUxNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="altSinir" type="Integer" array="False" size=""/>
+            <declare name="ustSinir" type="Integer" array="False" size=""/>
+            <declare name="sayilarTop" type="Integer" array="False" size=""/>
+            <assign variable="sayilarTop" expression="0"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Alt s&#305;n&#305;r&#305; belirle&quot;" newline="True"/>
+            <input variable="altSinir"/>
+            <output expression="&quot;&#220;st s&#305;n&#305;r&#305; belirle&quot;" newline="True"/>
+            <input variable="ustSinir"/>
+            <if expression="altSinir&gt;=ustSinir">
+                <then>
+                    <output expression="&quot;S&#305;n&#305;rlar&#305; ge&#231;ersiz girdin. Tekrar olu&#351;tur!&quot;" newline="True"/>
+                    <while expression="altSinir&gt;=ustSinir">
+                        <output expression="&quot;Tekrar s&#305;n&#305;rlar&#305; belirle:&quot;" newline="True"/>
+                        <output expression="&quot;Alt s&#305;n&#305;r&#305; belirle&quot;" newline="True"/>
+                        <input variable="altSinir"/>
+                        <output expression="&quot;&#220;st s&#305;n&#305;r&#305; belirle&quot;" newline="True"/>
+                        <input variable="ustSinir"/>
+                    </while>
+                </then>
+                <else/>
+            </if>
+            <for variable="i" start="altSinir+1" end="ustSinir-1" direction="inc" step="1">
+                <if expression="i%2==0">
+                    <then>
+                        <assign variable="sayilarTop" expression="sayilarTop+i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="altSinir&amp;&quot;-&quot;&amp;ustSinir&amp;&quot; sayilar&#305; aras&#305;ndaki &#231;ift say&#305;lar&#305;n toplam&#305; =&quot;&amp;sayilarTop" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

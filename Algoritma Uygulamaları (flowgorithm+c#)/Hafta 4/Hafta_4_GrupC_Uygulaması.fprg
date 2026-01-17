@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Hafta_4_GrupA_Uygulamas&#305;"/>
+        <attribute name="authors" value="fhrdd"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-12 01:11:13 &#214;S"/>
+        <attribute name="created" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTI7MTI6NDk6MzAgw5ZTOzI0MTE="/>
+        <attribute name="edited" value="ZmhyZGQ7QVNVU0ZYOzIwMjYtMDEtMTI7MDE6MTE6MTMgw5ZTOzQ7MjUxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <assign variable="sayi" expression="0"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="19" direction="inc" step="1">
+                <assign variable="sayi" expression="Random(101)+1"/>
+                <output expression="i+1&amp;&quot;. say&#305; = &quot;&amp;sayi" newline="True"/>
+                <if expression="sayi%5==0">
+                    <then>
+                        <output expression="sayi&amp;&quot; say&#305;s&#305; be&#351;e tam b&#246;l&#252;n&#252;r.&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
