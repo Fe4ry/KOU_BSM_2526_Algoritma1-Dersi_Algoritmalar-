@@ -379,7 +379,7 @@ Algoritma Uygulaması 9 (Hafta 13)
 >
 >**4.** *Fiyat listesini küçükten büyüğe sıralayınız.*
 >
->**5.** ***BinarySearch** *kullanarak girilen fiyatın sıralı listedeki indeksini bulunuz ve ekrana yazdırınız.*
+>**5.** **BinarySearch** *kullanarak girilen fiyatın sıralı listedeki indeksini bulunuz ve ekrana yazdırınız.*
 >
 >**6.** *Girilen fiyatın orijinal listedeki değerini 2 katı ile güncelleyiniz.*
 >
@@ -438,8 +438,7 @@ Algoritma Uygulaması 10 (Hafta 14)
 >
 >* *Üst üste iki artış veya iki azalış olması kuralı bozar.*
 >
->* *Dizinin ilk iki elemanı, dizinin başlangıç yönünü belirler.*
->* 
+>* *Dizinin ilk iki elemanı, dizinin başlangıç yönünü belirler.* 
 >***Örnek:***
 >
 >* *[1, 5, 2, 8, 3] -> (Arttı, azaldı, arttı, azaldı) ->*
@@ -453,8 +452,10 @@ Algoritma Uygulaması 10 (Hafta 14)
 >### B Grubu:
 >*Kullanıcıdan alınan bir tamsayı dizisinin Simetrik (Ayna / Palindrom) Dizi olup olmadığını kontrol eden bir C# programı yazınız.*
 >
->**1.** *Kullanıcıdan önce dizinin eleman sayısı alınacaktır. Ardından n elemanlı bir tamsayı dizisi girilecektir.
->**2.** *Bir dizi; Baştan sona ve sondan başa okunduğunda aynı ise **simetrik(ayna)** dizidir.
+>**1.** *Kullanıcıdan önce dizinin eleman sayısı alınacaktır. Ardından n elemanlı bir tamsayı dizisi girilecektir.*
+>**2.** Bir dizi;
+>
+>Baştan sona ve sondan başa okunduğunda aynı ise **simetrik(ayna)** dizidir.
 >***Eğer dizi simetrik ise:***
 >
 >* *Dizideki simetrik çift sayısını ekrana yazdırınız.*
@@ -464,7 +465,6 @@ Algoritma Uygulaması 10 (Hafta 14)
 >* *Eşitliğin ilk bozulduğu indeks değerini yazdırınız.*
 >
 >* *Ayrıca eşleşen simetrik çift sayısını ekrana yazdırınız.*
->* 
 >***Örnek:***
 >
 >|Dizi: [1, 4, 9, 3, 1]| Dizi: [1, 4, 9, 4, 1]|
