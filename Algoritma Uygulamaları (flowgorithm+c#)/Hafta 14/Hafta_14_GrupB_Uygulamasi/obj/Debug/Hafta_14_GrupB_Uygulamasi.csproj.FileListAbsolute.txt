@@ -1,7 +1,0 @@
-C:\Users\fhrdd\OneDrive\Masaüstü\Algoritma Uygulamaları (flowgorithm+c#)\Hafta 14\Hafta_14_GrupB_Uygulamasi\bin\Debug\Hafta_14_GrupB_Uygulamasi.exe.config
-C:\Users\fhrdd\OneDrive\Masaüstü\Algoritma Uygulamaları (flowgorithm+c#)\Hafta 14\Hafta_14_GrupB_Uygulamasi\bin\Debug\Hafta_14_GrupB_Uygulamasi.exe
-C:\Users\fhrdd\OneDrive\Masaüstü\Algoritma Uygulamaları (flowgorithm+c#)\Hafta 14\Hafta_14_GrupB_Uygulamasi\bin\Debug\Hafta_14_GrupB_Uygulamasi.pdb
-C:\Users\fhrdd\OneDrive\Masaüstü\Algoritma Uygulamaları (flowgorithm+c#)\Hafta 14\Hafta_14_GrupB_Uygulamasi\obj\Debug\Hafta_14_GrupB_Uygulamasi.csproj.AssemblyReference.cache
-C:\Users\fhrdd\OneDrive\Masaüstü\Algoritma Uygulamaları (flowgorithm+c#)\Hafta 14\Hafta_14_GrupB_Uygulamasi\obj\Debug\Hafta_14_GrupB_Uygulamasi.csproj.CoreCompileInputs.cache
-C:\Users\fhrdd\OneDrive\Masaüstü\Algoritma Uygulamaları (flowgorithm+c#)\Hafta 14\Hafta_14_GrupB_Uygulamasi\obj\Debug\Hafta_14_GrupB_Uygulamasi.exe
-C:\Users\fhrdd\OneDrive\Masaüstü\Algoritma Uygulamaları (flowgorithm+c#)\Hafta 14\Hafta_14_GrupB_Uygulamasi\obj\Debug\Hafta_14_GrupB_Uygulamasi.pdb
