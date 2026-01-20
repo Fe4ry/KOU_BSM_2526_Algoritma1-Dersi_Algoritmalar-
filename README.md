@@ -488,6 +488,7 @@ Algoritma Uygulaması 10 (Hafta 14)
 >***Random sınıfını kullanarak:***
 >* *10 elemanlı bir tamsayı dizisini 1–5 aralığında değerlerle doldurunuz.*
 >* *Oluşturulan diziyi ekrana yazdırınız.*
+>
 >  ***Dizideki;***
 >* *En uzun tekrar sayısını,*
 >* *Bu tekrarın hangi sayıya ait olduğunu,*
