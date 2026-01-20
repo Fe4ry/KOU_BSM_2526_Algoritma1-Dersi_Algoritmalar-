@@ -501,7 +501,8 @@ Algoritma Uygulaması 10 (Hafta 14)
 >|Sayı:| 3|
 >|Başlangıç indeksi:| 0|
 
-### Dipnot 
+Dipnot:
+---
 *Dostlar, algoritmaların sorunsuz bir şekilde çalışacağı gibi bir düşüncem kesinlikle yok. Herhangi bir algoritmayı daha kaliteli ve en optimal bir şekilde temiz kod ile yapabileceğinizi düşünüyorsanız, depoya katkıda bulununmanızı gerçekten isterim. Teşekkürler şimdiden...*
 
 
