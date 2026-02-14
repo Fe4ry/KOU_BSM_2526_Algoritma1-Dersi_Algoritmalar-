@@ -1,5 +1,5 @@
 # 2025-2026 Programlama Laboratuvarı-1 Algoritmaları
-Bu depo  ***Kocaeli Üniversitesi / Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı-1 (Yavuz Selim FATİHOĞLU)* dersini alan öğrenciler için derse özel algoritmaları pratik yapabilmeleri amacıyla oluşturulmuştur.
+Bu depo  ***Kocaeli Üniversitesi / Bilişim Sistemleri Mühendisliği*** *Programlama Laboratuvarı-1 (Yavuz Selim FATİHOĞLU) 25-26* dersini alan öğrenciler için derse özel algoritmaları pratik yapabilmeleri amacıyla oluşturulmuştur.
 
 ## Algoritma Uygulaması 1 (Hafta 3)
 
@@ -504,7 +504,7 @@ Algoritma Uygulaması 10 (Hafta 14)
 
 Dipnot:
 ---
-*Dostlar, algoritmaların sorunsuz bir şekilde çalışacağı gibi bir düşüncem kesinlikle yok. Herhangi bir algoritmayı daha kaliteli ve en optimal bir şekilde temiz kod ile yapabileceğinizi düşünüyorsanız, depoya katkıda bulununmanızı gerçekten isterim. Teşekkürler şimdiden...*
+*Dostlar, algoritmaların sorunsuz bir şekilde çalışacağı gibi bir düşüncem kesinlikle yok. Herhangi bir algoritmayı daha kaliteli ve en optimal bir şekilde temiz kod ile yapabileceğinizi düşünüyorsanız, depoya katkıda bulunmanızı gerçekten isterim. Teşekkürler şimdiden...*
 
 
 
