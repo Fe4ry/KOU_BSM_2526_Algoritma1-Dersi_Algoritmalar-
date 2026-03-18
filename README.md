@@ -504,7 +504,7 @@ Algoritma Uygulaması 10 (Hafta 14)
 
 Dipnot:
 ---
-*Dostlar, algoritmaların sorunsuz bir şekilde çalışacağı gibi bir düşüncem kesinlikle yok. Herhangi bir algoritmayı daha kaliteli ve en optimal bir şekilde temiz kod ile yapabileceğinizi düşünüyorsanız, depoya katkıda bulunmanızı gerçekten isterim. Teşekkürler şimdiden...*
+*Dostlar, algoritmaların sorunsuz bir şekilde çalışacağı gibi bir düşüncem kesinlikle yok. Herhangi bir algoritmayı daha kaliteli ve optimal olan temiz kod ile yapabileceğinizi düşünüyorsanız, depoya katkıda bulunmanızı gerçekten isterim. Teşekkürler şimdiden...*
 
 
 
